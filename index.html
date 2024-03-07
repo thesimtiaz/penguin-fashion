@@ -5,9 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Penguin Fashion | Sizzle with penguin apparel.</title>
     <link rel="shortcut icon" href="assets/icons/fav.png" type="image/x-icon" />
+
+    <!-- tailwind play cdn-->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#FF0000",
+            },
+          },
+        },
+      };
+    </script>
   </head>
   <body>
-    <header></header>
+    <header>
+      <h1 class="text-3x font-bold underline clifford">Hello world!</h1>
+    </header>
 
     <main></main>
 
